@@ -1,0 +1,35 @@
+# .gitignore for Node.js projects
+# 忽略 node_modules 依赖目录
+node_modules/
+
+# 忽略日志文件
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# 忽略环境变量文件
+.env
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 VS Code 编辑器配置
+.vscode/
+
+# 忽略打包输出
+/dist/
+/build/
+
+# 忽略覆盖率报告
+coverage/
+
+# 忽略临时文件
+*.tmp
+*.swp
+*.swo
+
+# 忽略 lock 文件（可选，根据团队约定）
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
